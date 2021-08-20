@@ -39,3 +39,8 @@ span {
   display: inline;
   color: #febd69;
 }
+
+.validated textarea:required:invalid,
+.validated input:required:invalid {
+    border-color: red;
+}
